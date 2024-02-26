@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+    }
+    .jumbotron {
+      background-image: url('https://source.unsplash.com/1600x900/?travel');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 150px 20px;
+      margin-bottom: 0;
+    }
+    .content {
+      padding: 50px 20px;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Travel Agency</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron (Hero Section) -->
+  <div class="jumbotron">
+    <h1 class="display-4">Explore the World with Us</h1>
+    <p class="lead">Discover amazing destinations and plan your next adventure.</p>
+    <a class="btn btn-primary btn-lg" href="#destinations" role="button">Explore Destinations</a>
+  </div>
+
+  <!-- Destinations Section -->
+  <div id="destinations" class="content">
+    <div class="container">
+      <h2>Popular Destinations</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/600x400/?beach" class="card-img-top" alt="Beach">
+            <div class="card-body">
+              <h5 class="card-title">Beach Paradise</h5>
+              <p class="card-text">Relax and unwind at the most beautiful beaches in the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/600x400/?mountain" class="card-img-top" alt="Mountain">
+            <div class="card-body">
+              <h5 class="card-title">Mountain Adventure</h5>
+              <p class="card-text">Experience the thrill of hiking and trekking in breathtaking mountain ranges.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/600x400/?city" class="card-img-top" alt="City">
+            <div class="card-body">
+              <h5 class="card-title">Urban Exploration</h5>
+              <p class="card-text">Discover the vibrant culture and rich history of bustling cities around the globe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="content">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a passionate team of travel enthusiasts dedicated to helping you create unforgettable memories. With our expertise and personalized service, we ensure that every aspect of your journey is tailored to perfection.</p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="content" style="padding-bottom: 100px;">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>For inquiries and bookings, please feel free to contact us.</p>
+      <p>Email: contact@travelagency.com</p>
+      <p>Phone: +1-123-456-7890</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Travel Agency. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
